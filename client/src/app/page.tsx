@@ -6,7 +6,7 @@ export default function Home() {
       <div className="bg-contain h-screen">
           <h1 className="font-extrabold text-6xl">Odd Jobz</h1>
           <PrimaryButton>Get Started</PrimaryButton>
-          <img src="/images/hero1.png" className="rounded"/>
+          <img src="/images/hero0.png" className="rounded"/>
         </div>
     </div>
   );
