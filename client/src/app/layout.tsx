@@ -1,5 +1,6 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css";
+import Navbar from '@/components/Navbar/Navbar';
 
 // If loading a variable font, you don't need to specify the font weight
 const poppins = Poppins({
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
