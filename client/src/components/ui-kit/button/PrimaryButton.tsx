@@ -7,7 +7,7 @@ interface props {
 export default function PrimaryButton({children, disabled}: PropsWithChildren<props>) {
     return <button 
         className="
-            bg-emerald-700 
+            bg-teal-950 
             hover:bg-emerald-800 
             active:bg-emerald-900 
             rounded-full 
@@ -15,6 +15,7 @@ export default function PrimaryButton({children, disabled}: PropsWithChildren<pr
             text-white
             font-semibold
             disabled:bg-gray-400
+            my-3
         "
         disabled={disabled}
     >
