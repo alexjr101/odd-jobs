@@ -1,3 +1,5 @@
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 const LINKS = [
@@ -7,10 +9,10 @@ const LINKS = [
 ];
 
 export default function Navbar() {
-    return <nav className="flex justify-between p-5 bg-teal-950 text-white">
+    return <nav className="flex justify-between p-5">
 
         <div>
-            <Link href={""}>Home</Link>
+            <Link href={"/"}><FontAwesomeIcon icon={faHouse}/></Link>
         </div>
 
         <div>
